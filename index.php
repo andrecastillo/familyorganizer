@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Magic Mirror</title>
+	<title>Castillo Family Organizer</title>
 	<style type="text/css">
 		<?php include('css/main.css') ?>
 	</style>
