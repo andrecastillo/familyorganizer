@@ -9,11 +9,12 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
-            units: 'metric',
+            // q: 'Miami, US',
+            zip: '33015, US',
+            units: 'imperial',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'en',
+            APPID: '25c50f2502a04cbc9ada3062ea4b8420'
         }
     },
     compliments: {
