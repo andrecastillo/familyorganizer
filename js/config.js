@@ -1,4 +1,5 @@
 var config = {
+    // controls the language for all settings unless you change below where indicated
     lang: 'en',
     time: {
         timeFormat: 12,
@@ -12,7 +13,7 @@ var config = {
             // q: 'Miami, US',
             zip: '33015, US',
             units: 'imperial',
-            // if you want a different lang for the weather that what is set above, change it here
+            // if you want a different language just for your weather report change it here
             lang: 'en',
             APPID: '25c50f2502a04cbc9ada3062ea4b8420'
         }
@@ -21,9 +22,11 @@ var config = {
         interval: 30000,
         fadeInterval: 4000,
         morning: [
-            'Good morning, handsome!',
+            'Today is your day, sieze it',
             'Enjoy your day!',
-            'How was your sleep?'
+            'Think positive, its a new day',
+            'How can you make this the best day possible?',
+            'Just Do It!'
         ],
         afternoon: [
             'Hello, beauty!',
@@ -31,8 +34,9 @@ var config = {
             'Looking good today!'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
+            'What a nice evening',
+            'Hug someone you love',
+            'Smile, youll be resting soon',
             'Hi, sexy!'
         ]
     },
@@ -42,13 +46,13 @@ var config = {
 		defaultSymbol: 'calendar', // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
         urls: [
 		{
-			symbol: 'calendar-plus-o', 
-			url: 'https://p01-calendarws.icloud.com/ca/subscribe/1/n6x7Farxpt7m9S8bHg1TGArSj7J6kanm_2KEoJPL5YIAk3y70FpRo4GyWwO-6QfHSY5mXtHcRGVxYZUf7U3HPDOTG5x0qYnno1Zr_VuKH2M'
-		},
-		{
-			symbol: 'soccer-ball-o',
-			url: 'https://www.google.com/calendar/ical/akvbisn5iha43idv0ktdalnor4%40group.calendar.google.com/public/basic.ics',
-		},
+			symbol: 'calendar-plus-o',
+			url: 'https://calendar.google.com/calendar/ical/adna3o5th8hkle3pcu9u4vbock%40group.calendar.google.com/public/basic.ics'
+		}
+		// {
+		    // symbol: 'soccer-ball-o',
+		    // url: 'https://www.google.com/calendar/ical/akvbisn5iha43idv0ktdalnor4%40group.calendar.google.com/public/basic.ics',
+		// },
 		// {
 			// symbol: 'mars',
 			// url: "https://server/url/to/his.ics",
