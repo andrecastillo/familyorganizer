@@ -7,12 +7,12 @@
  */
 
 // secrets.php is where the API key for ASANA goes
-include(dirname(__FILE__).'secrets.php')
+include('secrets.php');
 
-$url = "https://app.asana.com/api/1.0/projects/46668990078480/tasks?opt_pretty";
-$curl = curl_init($url);
+$asana_api_url = "https://app.asana.com/api/1.0/projects/46668990078480/tasks?opt_pretty";
+$curl = curl_init($asana_api_url);
 $headers = array(
-    "Authorization: Bearer "
+    "Authorization: Bearer ".$access_token
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $result = curl_exec($curl);

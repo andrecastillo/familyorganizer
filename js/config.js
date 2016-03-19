@@ -47,7 +47,7 @@ var config = {
 		{
 			symbol: 'calendar-plus-o',
             url: "https://server/url/to/his.ics",
-		}
+		},
 		{
 	        symbol: 'soccer-ball-o',
 		    url: '',
