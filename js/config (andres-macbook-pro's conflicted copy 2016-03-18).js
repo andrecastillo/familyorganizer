@@ -46,16 +46,16 @@ var config = {
 		defaultSymbol: 'calendar', // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
         urls: [
 		{
-			symbol: 'calendar-plus-o',
-			url: 'http://www.nba.com/teams/schedules/2015/heat_schedule.ics'
+			symbol: 'calendar',
+			url: 'https://calendar.google.com/calendar/ical/andrecastillo%40gmail.com/private-8fef094677345d75f5fdcd4fe72fa072/basic.ics',
 		}
 		// {
 		    // symbol: 'soccer-ball-o',
-		    // url: '',
+            // url: 'http://www.nba.com/teams/schedules/2015/heat_schedule.ics'
 		// },
 		// {
 			// symbol: 'mars',
-			// url: "https://server/url/to/his.ics",
+			// url: "webcal://mlb.am/tix/marlins_schedule_full",
 		// },
 		// {
 			// symbol: 'venus',
