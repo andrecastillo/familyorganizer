@@ -11,7 +11,6 @@ include(dirname(__FILE__).'secrets.php')
 
 $url = "https://app.asana.com/api/1.0/projects/46668990078480/tasks?opt_pretty";
 $curl = curl_init($url);
-// TODO: move api key below to untracked file secrets.php
 $headers = array(
     "Authorization: Bearer "
 );
