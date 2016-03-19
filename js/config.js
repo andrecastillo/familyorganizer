@@ -10,62 +10,62 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            // q: 'Miami, US',
-            zip: '33015, US',
+            // put your zip here, i've moved mine into a different file for security
+            // zip: '12345, US',
             units: 'imperial',
             // if you want a different language just for your weather report change it here
-            lang: 'en',
-            APPID: '25c50f2502a04cbc9ada3062ea4b8420'
+            lang: 'en'
+            // Put your ID here, I've moved mine into a different file for security
+            // APPID: 'abcdefghijklmnopqrstuvwxyz'
         }
     },
     compliments: {
         interval: 30000,
-        fadeInterval: 4000,
+        fadeInterval: 4000
+        // I've got more in my config file because I don't want you knowing what I tell myself
+        /*
         morning: [
-            'Today is your day, sieze it',
-            'Enjoy your day!',
-            'Think positive, its a new day',
-            'How can you make this the best day possible?',
             'Just Do It!'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Just Do It!'
         ],
         evening: [
-            'What a nice evening',
-            'Hug someone you love',
-            'Smile, youll be resting soon',
-            'Hi, sexy!'
+            'Just Do It!'
         ]
+        */
     },
     calendar: {
         maximumEntries: 10, // Total Maximum Entries
+        // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
 		displaySymbol: true,
-		defaultSymbol: 'calendar', // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
+		defaultSymbol: 'calendar'
+        // moved to secrets.js because i use my private calendar address, just uncomment, and only put an ics for
+        // the number of calendars you want, if you only want, one, then only have one element in the array
+        /*
         urls: [
 		{
 			symbol: 'calendar-plus-o',
-			url: 'http://www.nba.com/teams/schedules/2015/heat_schedule.ics'
+            url: "https://server/url/to/his.ics",
 		}
-		// {
-		    // symbol: 'soccer-ball-o',
-		    // url: '',
-		// },
-		// {
-			// symbol: 'mars',
-			// url: "https://server/url/to/his.ics",
-		// },
-		// {
-			// symbol: 'venus',
-			// url: "https://server/url/to/hers.ics",
-		// },
-		// {
-			// symbol: 'venus-mars',
-			// url: "https://server/url/to/theirs.ics",
-		// },
+		{
+	        symbol: 'soccer-ball-o',
+		    url: '',
+		},
+		{
+			symbol: 'mars',
+			url: "https://server/url/to/his.ics",
+		},
+		{
+			symbol: 'venus',
+			url: "https://server/url/to/hers.ics",
+		},
+		{
+		    symbol: 'venus-mars',
+			url: "https://server/url/to/theirs.ics",
+		}
 		]
+		*/
     },
     news: {
         feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'

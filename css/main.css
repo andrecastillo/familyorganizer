@@ -23,7 +23,8 @@ html {
 }
 
 .bottom {
-
+  position: absolute;
+  bottom: auto;
 }
 
 .left {
@@ -39,10 +40,10 @@ html {
 
 .center-ver {
   position: absolute;
-  top: 50%;
+  top: 25%;
   height: 200px;
   margin-top: -100px;
-  line-height: 100px;
+  line-height: 75px;
 }
 
 .lower-third {
@@ -81,7 +82,7 @@ html {
 }
 
 .xsmall {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .xsmall .wi {
@@ -186,13 +187,17 @@ html {
 }
 
 .dishwasher {
+  /*
   background-color: white;
   color: black;
+  */
   margin: 0 200px;
   font-size: 60px;
   border-radius: 1000px;
   border-radius: 1200px;
+  /*
   display: none;
+  */
 }
 
 @font-face {
