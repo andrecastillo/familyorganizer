@@ -5,6 +5,7 @@ Taking a great little tool and am going to modify it for my needs.
 
 This'll be a modified version of the MagicMirror app. My version has a larger calendar, a grocery list, and a to do list.
 
+Also, I've hidden all the key's in untracked files so that they don't show up in the repo.
 
 
 MagicMirror
